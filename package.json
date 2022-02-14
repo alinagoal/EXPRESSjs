@@ -1,0 +1,24 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server-dev": "nodemon --ignore 'dist/' --ignore 'public/' --ignore constants/response.js app.js",
+    "server-nav": "nodemon --ignore 'dist/' --ignore 'public/' --ignore constants/response.js nav.js",
+    
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alinagoal/EXPRESSjs.git"
+  },
+  "author": "alina dangol",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
