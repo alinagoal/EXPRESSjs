@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server-dev": "nodemon --ignore 'dist/' --ignore 'public/' --ignore constants/response.js app.js",
+    "server-dev": "nodemon --ignore 'dist/' --ignore 'public/' --ignore constants/response.js src/index.js",
     "server-nav": "nodemon --ignore 'dist/' --ignore 'public/' --ignore constants/response.js nav.js",
-    
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,7 +15,8 @@
   "author": "alina dangol",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "hbs": "^4.2.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
